@@ -63,6 +63,14 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: Food,
+    url: "https://food-delivery-frontend-3uxs.onrender.com/",
+    github: "https://github.com/Saijucodes/Food_Delivery",
+    title: "Food Delivery Website",
+    text: "Website that helps to take orders of tyres that can be retrader and sold again to the customers with the same life period of a new one.",
+  },
+  {
+    id: nanoid(),
     img: Omnifood,
     url: "https://saijucodes.github.io/Omnifood/",
     github: "https://github.com/Saijucodes/Omnifood",
@@ -85,14 +93,7 @@ export const projects = [
     title: "Baby Tyre Retraders",
     text: "Website that helps to take orders of tyres that can be retrader and sold again to the customers with the same life period of a new one.",
   },
-  {
-    id: nanoid(),
-    img: Food,
-    url: "https://food-delivery-frontend-3uxs.onrender.com/",
-    github: "https://github.com/Saijucodes/Food_Delivery",
-    title: "Food Delivery Website",
-    text: "Website that helps to take orders of tyres that can be retrader and sold again to the customers with the same life period of a new one.",
-  },
+
   {
     id: nanoid(),
     img: Simongame,
