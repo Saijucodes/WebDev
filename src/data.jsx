@@ -69,14 +69,7 @@ export const projects = [
     title: "Food Delivery Website",
     text: "Website that helps to take orders of tyres that can be retrader and sold again to the customers with the same life period of a new one.",
   },
-  {
-    id: nanoid(),
-    img: Omnifood,
-    url: "https://saijucodes.github.io/Omnifood/",
-    github: "https://github.com/Saijucodes/Omnifood",
-    title: "Omnifood",
-    text: "Website that provides you with personalized meal plans, nutritious recipes, and expert tips to help you make healthier food choices.",
-  },
+
   {
     id: nanoid(),
     img: Comfy,
@@ -84,6 +77,14 @@ export const projects = [
     github: "https://github.com/Saijucodes/Comfy-Store",
     title: "Comfy-Store",
     text: "Website that offers a curated selection of modern and classic pieces of furniture. With helpful filters and personalized recommendations.",
+  },
+  {
+    id: nanoid(),
+    img: Omnifood,
+    url: "https://saijucodes.github.io/Omnifood/",
+    github: "https://github.com/Saijucodes/Omnifood",
+    title: "Omnifood",
+    text: "Website that provides you with personalized meal plans, nutritious recipes, and expert tips to help you make healthier food choices.",
   },
   {
     id: nanoid(),
