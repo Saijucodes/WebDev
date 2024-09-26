@@ -1,15 +1,23 @@
-import ProjectsCard from './ProjectsCard';
-import { projects } from '../data';
-import SectionTitle from './SectionTitle';
+import ProjectsCard from "./ProjectsCard";
+import { projects } from "../data";
+import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
   return (
-    <section className='py-20 align-element' id='projects'>
-      <SectionTitle text='web creations' />
-      <div className='py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8'>
-        {projects.map((project) => {
+    <section className="py-20 align-element" id="projects">
+      <SectionTitle text="web creations" />
+      <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        {projects.slice(0, 6).map((project) => {
           return <ProjectsCard key={project.id} {...project} />;
         })}
+      </div>
+      <div className="flex justify-center">
+        <a
+          href="/projects"
+          className="text-center text-white bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 rounded-lg py-2 px-4 transition duration-300"
+        >
+          View More...
+        </a>
       </div>
     </section>
   );

@@ -1,18 +1,19 @@
-import About from './components/About';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import Main from "./components/Main";
+import AllProjects from "./components/AllProjects";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+  },
+  {
+    path: "/projects",
+    element: <AllProjects />,
+  },
+]);
 
 const App = () => {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Skills />
-      <About />
-      <Projects />
-    </>
-  );
+  return <RouterProvider router={router} />;
 };
 export default App;
