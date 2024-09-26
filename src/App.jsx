@@ -1,19 +1,16 @@
 import Main from "./components/Main";
 import AllProjects from "./components/AllProjects";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Main />,
-  },
-  {
-    path: "/projects",
-    element: <AllProjects />,
-  },
-]);
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/projects" element={<AllProjects />} />
+      </Routes>
+    </HashRouter>
+  );
 };
+
 export default App;
