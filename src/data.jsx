@@ -110,7 +110,7 @@ export const projects = [
     url: "https://saijucodes.github.io/Simongame/",
     github: "https://github.com/Saijucodes/Simongame",
     title: "Simongame",
-    text: "A Simon game website offers an interactive, memory-based game where players repeat an increasingly complex sequence of lights and sounds. It provides a fun and challenging experience, with simple controls and colorful visuals to engage users.",
+    text: "A Simon game website offers an interactive, memory-based game where players repeat an increasingly complex sequence of lights and sounds. It provides a fun and challenging experience, with simple controls and colorful visuals.",
   },
   {
     id: nanoid(),
